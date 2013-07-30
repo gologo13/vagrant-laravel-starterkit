@@ -1,0 +1,12 @@
+[submodule "cookbooks/mysql"]
+	path = cookbooks/mysql
+	url = git@github.com:opscode-cookbooks/mysql.git
+[submodule "cookbooks/database"]
+	path = cookbooks/database
+	url = git@github.com:opscode-cookbooks/database.git
+[submodule "cookbooks/openssl"]
+	path = cookbooks/openssl
+	url = git@github.com:opscode-cookbooks/openssl.git
+[submodule "cookbooks/vim"]
+	path = cookbooks/vim
+	url = git@github.com:opscode-cookbooks/vim.git
