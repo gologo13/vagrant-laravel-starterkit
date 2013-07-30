@@ -60,6 +60,7 @@ Vagrant.configure("2") do |config|
     chef.cookbooks_path = "./cookbooks"
     chef.add_recipe "httpd"
     chef.add_recipe "openssl"
+    chef.add_recipe "database::mysql"
     chef.add_recipe "mysql::server"
     chef.add_recipe "php"
     chef.add_recipe "group"
