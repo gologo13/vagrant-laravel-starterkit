@@ -18,7 +18,7 @@ A basic Ubuntu 12.04 Vagrant setup with [Laravel4](http://laravel.com/docs) and 
 * run `vagrant up` inside the newly created directory
 * (the first time you run vagrant it will need to fetch the virtual box image which is ~300mb so depending on your download speed this could take some time)
 * Vagrant will then use chef to provision the base virtual box with our LAMP stack (this could take a few minutes)
-* You can verify that everything was successful by opening http://192.168.33.10/sandbox/public in a browser
+* You can verify that everything was successful by opening [here](http://192.168.33.10/sandbox/public) in a browser
 
 *Note: You may have to change permissions on the www/app/storage folder to 777 under the host OS* 
 
